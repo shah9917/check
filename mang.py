@@ -1,6 +1,6 @@
 tickets = {'concert': 500, 'workshop': 700, 'seminar': '300'}
 while True:
-    buy = int(input('Which ticket to buy:1-concert,2-workshop,3-seminar'))
+    buy = int(input('Which ticket to buy:1-concert,2-workshop,3-seminar,4-?'))
     q = int(input("How many tickets would you like to buy?"))
     if buy==1:
         total = q*tickets[concert]
